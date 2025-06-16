@@ -1,1 +1,1 @@
-# APP_SQLITE
+# [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=5a2a83&size=35&center=true&vCenter=true&width=1000&lines=Projeto+Android+em+Kotlin;usando+Jetpack+Compose;com+armazenamento+local+em+banco+SQLite.)](https://git.io/typing-svg)
