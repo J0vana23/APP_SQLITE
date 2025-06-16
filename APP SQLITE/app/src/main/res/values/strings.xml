@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">APP SQLITE</string>
+    <string name="txtNome">Nome:</string>
+    <string name="txtEndereco">Endereço:</string>
+    <string name="txtBairro">Bairro:</string>
+    <string name="txtCep">Cep:</string>
+    <string name="txtObservacao">Observação:</string>
+    <string name="txtData">Data de Cadastro:</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="txtResposta">CONFIRMAÇÃO DE DADOS</string>
+    <string name="txtCadastro">INSERÇÃO DE DADOS</string>
+    <string name="btnConfirmar">Confirmar</string>
+
+</resources>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Título centralizado -->
+        <TextView
+            android:id="@+id/txtResposta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtResposta"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:id="@+id/imgUsuario"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/usuario"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"
+            />
+
+        <!-- Nome -->
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtNome"
+            android:textSize="18sp"
+            android:textColor="#555555"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:background="@drawable/background"
+            android:textSize="18sp"
+            android:textColor="#AAAAAA"
+            android:padding="12dp" />
+
+        <!-- Endereço -->
+        <TextView
+            android:id="@+id/txtEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtEndereco"
+            android:textSize="18sp"
+            android:textColor="#555555"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:background="@drawable/background"
+            android:textSize="18sp"
+            android:textColor="#AAAAAA"
+            android:padding="12dp" />
+
+        <!-- Bairro -->
+        <TextView
+            android:id="@+id/txtBairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBairro"
+            android:textSize="18sp"
+            android:textColor="#555555"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtBairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:background="@drawable/background"
+            android:textSize="18sp"
+            android:textColor="#AAAAAA"
+            android:padding="12dp" />
+
+        <!-- CEP -->
+        <TextView
+            android:id="@+id/txtCep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtCep"
+            android:textSize="18sp"
+            android:textColor="#555555"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtCep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:background="@drawable/background"
+            android:textSize="18sp"
+            android:textColor="#AAAAAA"
+            android:padding="12dp" />
+
+        <!-- Observação -->
+        <TextView
+            android:id="@+id/txtObservacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtObservacao"
+            android:textSize="18sp"
+            android:textColor="#555555"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtObservacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:background="@drawable/background"
+            android:textSize="18sp"
+            android:textColor="#AAAAAA"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/txtData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtData"
+            android:textSize="18sp"
+            android:textColor="#555555"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:background="@drawable/background"
+            android:textSize="18sp"
+            android:textColor="#AAAAAA"
+            android:padding="12dp" />
+
+        <!-- Botão Confirmar -->
+        <Button
+            android:id="@+id/btnConfirmar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnConfirmar"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="32dp"
+            android:paddingHorizontal="24dp"
+            android:backgroundTint="#000000"
+            android:elevation="4dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</ScrollView>
